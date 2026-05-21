@@ -1,0 +1,285 @@
+[
+  {
+    "question": "What values are set to −∞ in the N × N QK⊺ matrix?",
+    "ground_truth": "The upper-triangle portion of the comparisons matrix.",
+    "answer": "Greška: Connection error.",
+    "contexts": [],
+    "steps": 0,
+    "retrieval": "Vector"
+  },
+  {
+    "question": "What type of optimization problem is learning in neural networks described as?",
+    "ground_truth": "a non-convex optimization problem",
+    "answer": "Greška: Connection error.",
+    "contexts": [],
+    "steps": 0,
+    "retrieval": "Vector"
+  },
+  {
+    "question": "What is the second step in the process described in the text?",
+    "ground_truth": "Identification",
+    "answer": "Greška: Connection error.",
+    "contexts": [],
+    "steps": 0,
+    "retrieval": "Vector"
+  },
+  {
+    "question": "How many instruction/response instances are included in the Aya instruct finetuning corpus?",
+    "ground_truth": "204K",
+    "answer": "Greška: Connection error.",
+    "contexts": [],
+    "steps": 0,
+    "retrieval": "Vector"
+  },
+  {
+    "question": "What is the selectional restriction on the THEME role of the verb eat in the hamburger example?",
+    "ground_truth": "{food, nutrient}",
+    "answer": "Greška: Connection error.",
+    "contexts": [],
+    "steps": 0,
+    "retrieval": "Vector"
+  },
+  {
+    "question": "What type of parsers will be discussed in relation to constituents?",
+    "ground_truth": "neural span-based parsers",
+    "answer": "Greška: Connection error.",
+    "contexts": [],
+    "steps": 0,
+    "retrieval": "Vector"
+  },
+  {
+    "question": "How many transcribed conversations are included in the HKUST Mandarin Telephone Speech corpus?",
+    "ground_truth": "1206",
+    "answer": "Greška: Connection error.",
+    "contexts": [],
+    "steps": 0,
+    "retrieval": "Vector"
+  },
+  {
+    "question": "Who are the authors of the paper on knowledge-based word sense disambiguation?",
+    "ground_truth": "Chaplot, D. S. and R. Salakhutdinov.",
+    "answer": "The authors of the paper on knowledge-based word sense disambiguation are D. S. Chaplot and R. Salakhutdinov.",
+    "contexts": [
+      "[Izvor 1 | str.592 | data\\book.pdf]\nshared task. CoNLL.\nChaplot, D. S. and R. Salakhutdinov.\n2018. Knowledge-based word sense\ndisambiguation using topic models.\nAAAI.\nCharniak, E. 1997.\nStatistical pars-\ning with a context-free grammar and\nword statistics. AAAI.\nCharniak, E., C. Hendrickson, N. Ja-\ncobson, and M. Perkowitz. 1993.\nEquations for part-of-speech tag-\nging. AAAI.\nChe, W., Z. Li, Y. Li,"
+    ],
+    "steps": 1,
+    "retrieval": "Vector"
+  },
+  {
+    "question": "How many instructions does the Aya dataset provide?",
+    "ground_truth": "503 million instructions",
+    "answer": "The Aya dataset provides 503 million instructions in 114 languages from 12 tasks.",
+    "contexts": [
+      "[Izvor 1 | str.228 | data\\book.pdf]\n10.1\n•\nINSTRUCTION TUNING\n221\nMany huge instruction tuning datasets have been created, covering many tasks\nand languages. For example Aya gives 503 million instructions in 114 languages\nfrom 12 tasks including question answering, summarization, translation, paraphras-\ning, sentiment analysis, natural language inference and 6 others (Singh et al., 2024).\nSuperNat"
+    ],
+    "steps": 1,
+    "retrieval": "Vector"
+  },
+  {
+    "question": "What is the distance of the satellite's orbit from the sun compared to Earth?",
+    "ground_truth": "50 percent farther from the sun than Earth.",
+    "answer": "Greška: Got unsupported early_stopping_method `generate`",
+    "contexts": [],
+    "steps": 0,
+    "retrieval": "Vector"
+  },
+  {
+    "question": "What type of musician is mentioned in the text?",
+    "ground_truth": "electric guitar and bass player",
+    "answer": "Greška: Got unsupported early_stopping_method `generate`",
+    "contexts": [],
+    "steps": 0,
+    "retrieval": "Vector"
+  },
+  {
+    "question": "What is the title of the paper by Prates, Avelar, and Lamb published in 2019?",
+    "ground_truth": "Assessing gender bias in machine translation: a case study with Google Translate.",
+    "answer": "The title of the paper by Prates, Avelar, and Lamb published in 2019 is \"Assessing gender bias in machine translation: a case study with Google Translate.\"",
+    "contexts": [
+      "[Izvor 1 | str.609 | data\\book.pdf]\ntion.\nComputational Linguistics,\n40(4):921–950.\nPrates, M. O. R., P. H. Avelar, and L. C.\nLamb. 2019. Assessing gender bias\nin machine translation: a case study\nwith Google Translate. Neural Com-\nputing and Applications, 32:6363–\n6381.\nPrice,\nP. J.,\nW. Fisher,\nJ. Bern-\nstein, and D. Pallet. 1988.\nThe\nDARPA 1000-word resource man-\nagement database for continuous\n"
+    ],
+    "steps": 1,
+    "retrieval": "Vector"
+  },
+  {
+    "question": "Who are the authors of the paper titled 'Anaphora for everyone: Pronominal anaphora resolution without a parser'?",
+    "ground_truth": "C. Kennedy and B. K. Boguraev",
+    "answer": "The authors of the paper titled 'Anaphora for everyone: Pronominal anaphora resolution without a parser' are C. Kennedy and B. K. Boguraev.",
+    "contexts": [
+      "[Izvor 1 | str.529 | data\\book.pdf]\nanaphor\nnite NP the 38-year-old are therefore anaphoric. The anaphor corefers with a prior\nmention (in this case Victoria Chen) that is called the antecedent. Not every refer-\nantecedent\nring expression is an antecedent. An entity that has only a single mention in a text\n(like Lotsabucks in (23.1)) is called a singleton.\nsingleton\nIn this chapter we focus on the"
+    ],
+    "steps": 1,
+    "retrieval": "Vector"
+  },
+  {
+    "question": "What are the main dental sounds in English?",
+    "ground_truth": "[th] of thing and the [dh] of though",
+    "answer": "The main dental sounds in English are the [th] of \"thing\" and the [dh] of \"though,\" which are produced by placing the tongue behind the teeth with the tip slightly between the teeth.",
+    "contexts": [
+      "[Izvor 1 | str.321 | data\\book.pdf]\n314\nCHAPTER 14\n•\nPHONETICS AND SPEECH FEATURE EXTRACTION\n(nasal tract)\ndental\nbilabial\nglottal\npalatal\nvelar\nalveolar\nFigure 14.5\nMajor English places of articulation.\nDental: Sounds that are made by placing the tongue against the teeth are dentals.\ndental\nThe main dentals in English are the [th] of thing and the [dh] of though, which\nare made by placing the ton"
+    ],
+    "steps": 1,
+    "retrieval": "Vector"
+  },
+  {
+    "question": "What does the decoder generate from the quantizer output vector zqt?",
+    "ground_truth": "A lossy reconstructed waveform span ˆx.",
+    "answer": "The decoder generates a lossy reconstructed waveform from the quantizer output vector zqt.",
+    "contexts": [
+      "[Izvor 1 | str.375 | data\\book.pdf]\nwaveform, and represents it by a sequence of discrete tokens each taken from\none of the Nc codebooks, qt = qt,1,qt,2,...,qt,Nc. The vector quantizer also\nsums the vector codewords from each codebook to create a quantizer output\nvector zqt.\n3. a decoder that generates a lossy reconstructed waveform span ˆx from the\nquantizer output vector zqt.\nAudio tokenizers ar"
+    ],
+    "steps": 1,
+    "retrieval": "Vector"
+  },
+  {
+    "question": "What is the role of the phrase 'someplace nearby' in the sensible interpretation of the sentence?",
+    "ground_truth": "It is an adjunct that gives the location of the eating event.",
+    "answer": "The phrase 'someplace nearby' serves as an adjunct that provides the location of the eating event in a sensible interpretation. In contrast, in a nonsensical interpretation, it could be misconstrued as the direct object of the verb 'eat'.",
+    "contexts": [
+      "[Izvor 1 | str.499 | data\\book.pdf]\nthe sensible interpretation, eat is intransitive and the phrase someplace nearby is\nan adjunct that gives the location of the eating event. In the nonsensical speaker-as-\nGodzilla interpretation, eat is transitive and the phrase someplace nearby is the direct\nobject and the THEME of the eating, like the NP Malaysian food in the following\nsentences:\n(21.30)\nI wan",
+      "[Izvor 1 | str.499 | data\\book.pdf]\nthe sensible interpretation, eat is intransitive and the phrase someplace nearby is\nan adjunct that gives the location of the eating event. In the nonsensical speaker-as-\nGodzilla interpretation, eat is transitive and the phrase someplace nearby is the direct\nobject and the THEME of the eating, like the NP Malaysian food in the following\nsentences:\n(21.30)\nI wan"
+    ],
+    "steps": 2,
+    "retrieval": "Vector"
+  },
+  {
+    "question": "What is the task called that involves detecting whether a user is done speaking?",
+    "ground_truth": "endpointing or endpoint detection",
+    "answer": "The task that involves detecting whether a user is done speaking is called endpointing or end-point detection.",
+    "contexts": [
+      "[Izvor 1 | str.581 | data\\book.pdf]\nSpoken language models must also detect whether a user is done speaking, so\nthey can process the utterance and respond. This task—called endpointing or end-\nendpointing\npoint detection— can be quite challenging because of noise and because people\noften pause in the middle of turns.\n25.1.2\nSpeech Acts\nA key insight into conversation—due originally to the philosop"
+    ],
+    "steps": 1,
+    "retrieval": "Vector"
+  },
+  {
+    "question": "What does the activation value of the hidden layer in a simple recurrent neural network depend on?",
+    "ground_truth": "The current input and the activation value of the hidden layer from the previous time step.",
+    "answer": "The activation value of the hidden layer in a simple recurrent neural network depends on the current input as well as the activation value of the hidden layer from the previous time step.",
+    "contexts": [
+      "[Izvor 1 | str.304 | data\\book.pdf]\nusual recurrent hidden layer), and through the use of specialized neural units that\nmake use of gates to control the ﬂow of information into and out of the units that\n\n---\n\n[Izvor 2 | str.292 | data\\book.pdf]\n13.1\n•\nRECURRENT NEURAL NETWORKS\n285\nxt\nht\nyt\nFigure 13.1\nSimple recurrent neural network after Elman (1990). The hidden layer in-\ncludes a recurrent conne"
+    ],
+    "steps": 1,
+    "retrieval": "Vector"
+  },
+  {
+    "question": "How many times is a cell selected from row x to create each virtual test set x(i)?",
+    "ground_truth": "10 times",
+    "answer": "A cell from row x is selected 10 times with replacement to create each virtual test set x(i).",
+    "contexts": [
+      "[Izvor 1 | str.95 | data\\book.pdf]\nn = 10. Fig. 4.11 shows a couple of examples. To create each virtual test set x(i), we\nrepeatedly (n = 10 times) select a cell from row x with replacement. For example, to\ncreate the ﬁrst cell of the ﬁrst virtual test set x(1), if we happened to randomly select\nthe second cell of the x row, we would copy the value A\u0013B into our new cell, and\nmove on to create the "
+    ],
+    "steps": 1,
+    "retrieval": "Vector"
+  },
+  {
+    "question": "What is the context window size for transformer-based language models?",
+    "ground_truth": "200K tokens or even more for very large models.",
+    "answer": "The context window size for transformer-based language models can be quite large, ranging from 32K tokens for large models to 200K tokens or even more for very large models with special mechanisms.",
+    "contexts": [
+      "[Izvor 1 | str.196 | data\\book.pdf]\nlanguage models of Chapter 3 compute the probability of a word given counts of\nits occurrence with the n −1 prior words. The context is thus of size n −1. For\ntransformer language models, the context is the size of the transformer’s context\nwindow, which can be quite large, like 32K tokens for large models (and much larger\ncontexts of millions of words are possi"
+    ],
+    "steps": 1,
+    "retrieval": "Vector"
+  },
+  {
+    "question": "What is the training signal for the model in language modeling?",
+    "ground_truth": "The training signal comes from backpropagation from the last token.",
+    "answer": "The training signal for the model in language modeling is derived from the correct sequence of tokens, which allows the model to estimate the probability of the next token based on the previous tokens. This involves computing the model's loss for the next token and using the correct history sequence to predict subsequent words.",
+    "contexts": [
+      "[Izvor 1 | str.165 | data\\book.pdf]\ntrain on?\nLanguage models are trained in three stages, as shown in Fig. 7.12:\n\n---\n\n[Izvor 2 | str.373 | data\\book.pdf]\nmodel whose vocabulary includes both speech tokens and text tokens.\nWe train this language model to take as input two sequences, a text transcript\nand a small sample of speech from the desired talker, to tokenize both the text and\nthe speech in"
+    ],
+    "steps": 1,
+    "retrieval": "Vector"
+  },
+  {
+    "question": "What is the goal of chain-of-thought prompting?",
+    "ground_truth": "To improve performance on difficult reasoning tasks that language models tend to fail on.",
+    "answer": "The goal of chain-of-thought prompting is to improve performance on difficult reasoning tasks that language models tend to fail on by encouraging the model to break down these tasks into steps, similar to how humans approach problem-solving.",
+    "contexts": [
+      "[Izvor 1 | str.239 | data\\book.pdf]\n10.4.1\nChain-of-Thought Prompting\nThere is a wide range of techniques to use prompts to improve the performance of\nlanguage models on many tasks. Here we describe one of them, called chain-of-\nthought prompting.\nchain-of-\nthought\nThe goal of chain-of-thought prompting is to improve performance on difﬁcult\nreasoning tasks that language models tend to fail on. The"
+    ],
+    "steps": 1,
+    "retrieval": "Vector"
+  },
+  {
+    "question": "What is the simplest and most influential architecture discussed in the text?",
+    "ground_truth": "The Mention-Pair Architecture",
+    "answer": "The simplest and most influential architecture discussed in the text is the basic feedforward unit.",
+    "contexts": [
+      "[Izvor 1 | str.306 | data\\book.pdf]\narchitectures described in Section 13.4. And, as with simple RNNs, multi-layered\n\n---\n\n[Izvor 2 | str.306 | data\\book.pdf]\nment with different architectures. To see this, consider Fig. 13.14 which illustrates\nthe inputs and outputs associated with each kind of unit.\nAt the far left, (a) is the basic feedforward unit where a single set of weights and\na single act"
+    ],
+    "steps": 1,
+    "retrieval": "Vector"
+  },
+  {
+    "question": "What was the influential entity-based system mentioned in the text?",
+    "ground_truth": "Lappin and Leass (1994)",
+    "answer": "The influential entity-based systems mentioned in the text are Centering Theory (Grosz et al., 1995) and the entity grid model of Barzilay and Lapata (2008).",
+    "contexts": [
+      "[Izvor 1 | str.569 | data\\book.pdf]\nways.\nThe entity grid model of Barzilay and Lapata (2008) is an alternative way to\nentity grid\ncapture entity-based coherence: instead of having a top-down theory, the entity-grid\nmodel using machine learning to induce the patterns of entity mentioning that make\na discourse more coherent.\nThe model is based around an entity grid, a two-dimensional array that rep"
+    ],
+    "steps": 1,
+    "retrieval": "Vector"
+  },
+  {
+    "question": "What are some sources from which the process might come?",
+    "ground_truth": "Newswire, fiction or non-fiction books, scientific articles, Wikipedia, religious texts, spoken genres like telephone conversations, business meetings, police body-worn cameras, medical interviews, transcripts of television shows or movies, doctors’ notes, legal text, or parliamentary or congressional proceedings.",
+    "answer": "The process might come from various sources including newswire, fiction or non-fiction books, scientific articles, Wikipedia, religious texts, spoken genres like telephone conversations, business meetings, police body-worn cameras, medical interviews, and transcripts of television shows or movies. It can also originate from work situations such as doctors’ notes, legal texts, or parliamentary or congressional proceedings.",
+    "contexts": [
+      "[Izvor 1 | str.485 | data\\book.pdf]\nMerge references to the same entity or event\nFigure 20.20\nLevels of processing in FASTUS (Hobbs et al., 1997). Each level extracts a\nspeciﬁc type of information which is then passed on to the next higher level.\non hand-built regular expressions like the following (NG indicates Noun-Group and\nVG Verb-Group), which matches the ﬁrst sentence of the news story above"
+    ],
+    "steps": 1,
+    "retrieval": "Vector"
+  },
+  {
+    "question": "Who showed the equivalence of the WFST and the Earley algorithm?",
+    "ground_truth": "Sheil (1976)",
+    "answer": "Sheil (1976) showed the equivalence of the WFST and the Earley algorithm.",
+    "contexts": [
+      "[Izvor 1 | str.436 | data\\book.pdf]\nWFST\nKuno (1965) as a data structure that stores the results of all previous computations\nin the course of the parse. Based on a generalization of Cocke’s work, a similar\ndata structure had been independently described in Kay (1967) (and Kay 1973). The\ntop-down application of dynamic programming to parsing was described in Earley’s\nPh.D. dissertation (Earley 196"
+    ],
+    "steps": 1,
+    "retrieval": "Vector"
+  },
+  {
+    "question": "What is the purpose of calculating the standard deviation of the bootstrap sampled polarity scores?",
+    "ground_truth": "It gives a confidence measure.",
+    "answer": "The purpose of calculating the standard deviation of the bootstrap sampled polarity scores is to provide a confidence measure regarding the variability of the scores, indicating how much the score of a word might change with different seed sets.",
+    "contexts": [
+      "[Izvor 1 | str.516 | data\\book.pdf]\npositive and negative seed sets (for example using B = 50 and choosing 7 of\nthe 10 seed words each time). The standard deviation of the bootstrap sampled\npolarity scores gives a conﬁdence measure.\nidolize\nlove\nadore\nappreciate\nlike\nﬁnd\ndislike\nsee\nnotice\ndisapprove\nabhor\nhate\nloathe\ndespise\nuncover\nidolize\nlove\nadore\nappreciate\nlike\nﬁnd\ndislike\nsee\nnotice\ndisapp"
+    ],
+    "steps": 1,
+    "retrieval": "Vector"
+  },
+  {
+    "question": "What is the formula for the vote given by anchor b to the candidate annotation a →X?",
+    "ground_truth": "vote(b,X) = (1/|E(b)|) * Σ(Y∈E(b)) rel(X,Y)p(Y|b)",
+    "answer": "The formula for the vote given by anchor b to the candidate annotation a →X is: \n\n\\[ \nvote(b,X) = \\frac{1}{|E(b)|} \\sum_{Y \\in E(b)} rel(X,Y) p(Y|b) \n\\] \n\nwhere \\( E(b) \\) is the set of possible entities of b, \\( rel(X,Y) \\) is the relatedness between X and Y, and \\( p(Y|b) \\) is the prior probability of Y given b.",
+    "contexts": [
+      "[Izvor 1 | str.549 | data\\book.pdf]\n542\nCHAPTER 23\n•\nCOREFERENCE RESOLUTION AND ENTITY LINKING\nwhere in(x) is the set of Wikipedia pages pointing to x and W is the set of all Wiki-\npedia pages in the collection.\nThe vote given by anchor b to the candidate annotation a →X is the average,\nover all the possible entities of b, of their relatedness to X, weighted by their prior\nprobability:\nvote(b,X) ="
+    ],
+    "steps": 1,
+    "retrieval": "Vector"
+  },
+  {
+    "question": "What type of audio does HuBERT use as input?",
+    "ground_truth": "Raw 16kHz sampled audio.",
+    "answer": "HuBERT uses raw 16kHz sampled audio as input.",
+    "contexts": [
+      "[Izvor 1 | str.355 | data\\book.pdf]\nis passed to the transformer encoder.\nHuBERT (Hsu et al., 2021) uses an alternative front end architecture, in which\nconvolutional layers are used to completely replace the computation of the spectrum.\nSo the input is raw 16kHz sampled audio, and it is passed through seven 512-channel\nlayers with strides [5,2,2,2,2,2,2] and kernel widths [10,3,3,3,3,2,2] which l"
+    ],
+    "steps": 1,
+    "retrieval": "Vector"
+  },
+  {
+    "question": "Who introduced recurrence at the hidden layer in a feedforward network?",
+    "ground_truth": "Elman",
+    "answer": "Recurrence at the hidden layer in a feedforward network was introduced by Elman in 1990.",
+    "contexts": [
+      "[Izvor 1 | str.315 | data\\book.pdf]\nrecurrence at the hidden layer in a feedforward network (Elman networks) were in-\ntroduced by Elman (1990). Similar architectures were investigated by Jordan (1986)\nwith a recurrence from the output layer, and Mathis and Mozer (1995) with the\naddition of a recurrent context layer prior to the hidden layer. The possibility of\nunrolling a recurrent network into an"
+    ],
+    "steps": 1,
+    "retrieval": "Vector"
+  }
+]

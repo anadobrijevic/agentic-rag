@@ -1,0 +1,152 @@
+[
+  {
+    "question": "What values are set to −∞ in the N × N QK⊺ matrix?",
+    "ground_truth": "The upper-triangle portion of the comparisons matrix.",
+    "context": "q1•k1\nq2•k1 q2•k2\nq4•k1 q4•k2 q4•k3 q4•k4\nq3•k1 q3•k2 q3•k3\nN\nN\n−∞\n−∞\n−∞\n−∞\n−∞\n−∞\nFigure 8.10\nThe N × N QK⊺matrix showing the qi · kj values, with the upper-triangle\nportion of the comparisons matrix zeroed out (set to −∞, which the softmax will turn to\nzero).\nFig. 8.11 shows a schematic of all the computations for a single attention head\nparallelized in matrix form.\nq1\nq2\nq3\nq4\nk1\nk2\nk3\nk4\nQ\nKT\nQKT\nv1\nv2\nv3\nv4\nV\nq2•k2\nq4•k2 q4•k3 q4•k4\nq3•k2 q3•k3\n−∞\n−∞\n−∞\n−∞\n−∞\n−∞\nq1•k1\nq2•k1 q2•k2"
+  },
+  {
+    "question": "What type of optimization problem is learning in neural networks described as?",
+    "ground_truth": "a non-convex optimization problem",
+    "context": "∂z\n= −\n\u0012 y\na[2] + y−1\n1−a[2]\n\u0013\na[2](1−a[2])\n= a[2] −y\n(6.43)\nContinuing the backward computation of the gradients (next by passing the gra-\ndients over b[2]\n1 and the two product nodes, and so on, back to all the teal nodes), is\nleft as an exercise for the reader.\n6.6.5\nMore details on learning\nOptimization in neural networks is a non-convex optimization problem, more com-\nplex than for logistic regression, and for that and other reasons there are many best\npractices for successful learning.\n2"
+  },
+  {
+    "question": "What is the second step in the process described in the text?",
+    "ground_truth": "Identification",
+    "context": "arguments of any given predicate, many systems use simple heuristics to prune\nunlikely constituents.\n2. Identiﬁcation: a binary classiﬁcation of each node as an argument to be la-\nbeled or a NONE.\n3. Classiﬁcation: a 1-of-N classiﬁcation of all the constituents that were labeled\nas arguments by the previous stage"
+  },
+  {
+    "question": "How many instruction/response instances are included in the Aya instruct finetuning corpus?",
+    "ground_truth": "204K",
+    "context": "2022), Flan 2022 has 15 million examples from 1836 tasks (Longpre et al., 2023),\nand OPT-IML has 18 million examples from 2000 tasks (Iyer et al., 2022).\nThese instruction-tuning datasets are created in four ways. The ﬁrst is for people\nto write the instances directly. For example, part of the Aya instruct ﬁnetuning cor-\npus (Fig. 10.2) includes 204K instruction/response instances written by 3000 ﬂuent\nspeakers of 65 languages volunteering as part of a participatory research initiative"
+  },
+  {
+    "question": "What is the selectional restriction on the THEME role of the verb eat in the hamburger example?",
+    "ground_truth": "{food, nutrient}",
+    "context": "synset as the selectional restriction on each of its arguments. A meaning representa-\ntion is well-formed if the role ﬁller word is a hyponym (subordinate) of this synset.\nFor our ate a hamburger example, for instance, we could set the selectional\nrestriction on the THEME role of the verb eat to the synset {food, nutrient}, glossed\nas any substance that can be metabolized by an animal to give energy and build\ntissue. Luckily, the chain of hypernyms for hamburger shown in Fig. 21.7 reveals"
+  },
+  {
+    "question": "What type of parsers will be discussed in relation to constituents?",
+    "ground_truth": "neural span-based parsers",
+    "context": "constituent. We’ll see how to do this with neural span-based parsers. Finally, we’ll\nintroduce the standard set of metrics for evaluating parser accuracy."
+  },
+  {
+    "question": "How many transcribed conversations are included in the HKUST Mandarin Telephone Speech corpus?",
+    "ground_truth": "1206",
+    "context": "American communities and others (Kendall and Farrington, 2020). The interviews\nare anonymized with transcripts aligned at the utterance level.\nThere are a wide variety of corpora available in other languages. In Chinese,\nfor example, the HKUST Mandarin Telephone Speech corpus has 1206 transcribed\nHKUST\nten-minute telephone conversations between speakers of Mandarin across China in-\ncluding conversations between friends and between strangers (Liu et al., 2006). The"
+  },
+  {
+    "question": "Who are the authors of the paper on knowledge-based word sense disambiguation?",
+    "ground_truth": "Chaplot, D. S. and R. Salakhutdinov.",
+    "context": "shared task. CoNLL.\nChaplot, D. S. and R. Salakhutdinov.\n2018. Knowledge-based word sense\ndisambiguation using topic models.\nAAAI.\nCharniak, E. 1997.\nStatistical pars-\ning with a context-free grammar and\nword statistics. AAAI.\nCharniak, E., C. Hendrickson, N. Ja-\ncobson, and M. Perkowitz. 1993.\nEquations for part-of-speech tag-\nging. AAAI.\nChe, W., Z. Li, Y. Li, Y. Guo, B. Qin,\nand T. Liu. 2009.\nMultilingual\ndependency-based syntactic and se-\nmantic parsing. CoNLL.\nChen, C. and V. Ng. 2013.\nLinguis-"
+  },
+  {
+    "question": "How many instructions does the Aya dataset provide?",
+    "ground_truth": "503 million instructions",
+    "context": "10.1\n•\nINSTRUCTION TUNING\n221\nMany huge instruction tuning datasets have been created, covering many tasks\nand languages. For example Aya gives 503 million instructions in 114 languages\nfrom 12 tasks including question answering, summarization, translation, paraphras-\ning, sentiment analysis, natural language inference and 6 others (Singh et al., 2024).\nSuperNatural Instructions has 12 million examples from 1600 tasks (Wang et al.,"
+  },
+  {
+    "question": "What is the distance of the satellite's orbit from the sun compared to Earth?",
+    "ground_truth": "50 percent farther from the sun than Earth.",
+    "context": "Satellite relation is represented with an arrow from the satellite to the nucleus:\nKevin must be here.\nHis car is parked outside\nevidence\nWe can also talk about the coherence of a larger text by considering the hierar-\nchical structure between coherence relations. Figure 24.1 shows the rhetorical struc-\nture of a paragraph from Marcu (2000a) for the text in (24.12) from the Scientiﬁc\nAmerican magazine.\n(24.12) With its distant orbit–50 percent farther from the sun than Earth–and slim"
+  },
+  {
+    "question": "What type of musician is mentioned in the text?",
+    "ground_truth": "electric guitar and bass player",
+    "context": "9.3\n•\nCONTEXTUAL EMBEDDINGS\n209\nan\nelectric\nguitar\nand\nbass\nplayer\nstand\noﬀ\nto\none\nside\nelectric1: \nusing \nelectricity\nelectric2:  \ntense\nelectric3: \nthrilling\nguitar1 \nbass1: \nlow range\n…\nbass4: \nsea ﬁsh\n… \nbass7: \ninstrument\n…\nplayer1: \nin game\nplayer2: \nmusician \nplayer3: \nactor\n…\nstand1: \nupright\n…\nstand5: \nbear\n… \nstand10: \nput \nupright\n…\nside1: \nrelative \nregion\n…\nside3: \nof body\n… \nside11: \nslope\n…\nx1\ny1\nx2\ny2\nx3\ny3\ny4\ny5\ny6\nx4\nx5\nx6\nFigure 9.7"
+  },
+  {
+    "question": "What is the title of the paper by Prates, Avelar, and Lamb published in 2019?",
+    "ground_truth": "Assessing gender bias in machine translation: a case study with Google Translate.",
+    "context": "tion.\nComputational Linguistics,\n40(4):921–950.\nPrates, M. O. R., P. H. Avelar, and L. C.\nLamb. 2019. Assessing gender bias\nin machine translation: a case study\nwith Google Translate. Neural Com-\nputing and Applications, 32:6363–\n6381.\nPrice,\nP. J.,\nW. Fisher,\nJ. Bern-\nstein, and D. Pallet. 1988.\nThe\nDARPA 1000-word resource man-\nagement database for continuous\nspeech recognition. ICASSP.\nPrice, P. J., M. Ostendorf, S. Shattuck-\nHufnagel, and C. Fong. 1991. The\nuse of prosody in syntactic disam-"
+  },
+  {
+    "question": "Who are the authors of the paper titled 'Anaphora for everyone: Pronominal anaphora resolution without a parser'?",
+    "ground_truth": "C. Kennedy and B. K. Boguraev",
+    "context": "ican\nLanguage\nProject.\nhttp:\n//oraal.uoregon.edu/coraal.\nKennedy, C. and B. K. Boguraev. 1996.\nAnaphora for everyone: Pronomi-\nnal anaphora resolution without a\nparser. COLING.\nKhandelwal, U., O. Levy, D. Juraf-\nsky, L. Zettlemoyer, and M. Lewis.\n2019. Generalization through mem-\norization:\nNearest neighbor lan-\nguage models. ICLR.\nKhattab, O., C. Potts, and M. Zaharia.\n2021. Relevance-guided supervision\nfor OpenQA with ColBERT. TACL,\n9:929–944.\nKhattab, O., A. Singhvi, P. Mahesh-\nwari,\nZ. Zhang,"
+  },
+  {
+    "question": "What are the main dental sounds in English?",
+    "ground_truth": "[th] of thing and the [dh] of though",
+    "context": "314\nCHAPTER 14\n•\nPHONETICS AND SPEECH FEATURE EXTRACTION\n(nasal tract)\ndental\nbilabial\nglottal\npalatal\nvelar\nalveolar\nFigure 14.5\nMajor English places of articulation.\nDental: Sounds that are made by placing the tongue against the teeth are dentals.\ndental\nThe main dentals in English are the [th] of thing and the [dh] of though, which\nare made by placing the tongue behind the teeth with the tip slightly between\nthe teeth.\nAlveolar: The alveolar ridge is the portion of the roof of the mouth just behind the"
+  },
+  {
+    "question": "What does the decoder generate from the quantizer output vector zqt?",
+    "ground_truth": "A lossy reconstructed waveform span ˆx.",
+    "context": "waveform, and represents it by a sequence of discrete tokens each taken from\none of the Nc codebooks, qt = qt,1,qt,2,...,qt,Nc. The vector quantizer also\nsums the vector codewords from each codebook to create a quantizer output\nvector zqt.\n3. a decoder that generates a lossy reconstructed waveform span ˆx from the\nquantizer output vector zqt.\nAudio tokenizers are generally learned end-to-end, using loss functions that re-\nward a tokenization that allows the system to reconstruct the input waveform."
+  },
+  {
+    "question": "What is the role of the phrase 'someplace nearby' in the sensible interpretation of the sentence?",
+    "ground_truth": "It is an adjunct that gives the location of the eating event.",
+    "context": "the sensible interpretation, eat is intransitive and the phrase someplace nearby is\nan adjunct that gives the location of the eating event. In the nonsensical speaker-as-\nGodzilla interpretation, eat is transitive and the phrase someplace nearby is the direct\nobject and the THEME of the eating, like the NP Malaysian food in the following\nsentences:\n(21.30)\nI want to eat Malaysian food.\nHow do we know that someplace nearby isn’t the direct object in this sentence?"
+  },
+  {
+    "question": "What is the task called that involves detecting whether a user is done speaking?",
+    "ground_truth": "endpointing or endpoint detection",
+    "context": "Spoken language models must also detect whether a user is done speaking, so\nthey can process the utterance and respond. This task—called endpointing or end-\nendpointing\npoint detection— can be quite challenging because of noise and because people\noften pause in the middle of turns.\n25.1.2\nSpeech Acts\nA key insight into conversation—due originally to the philosopher Wittgenstein\n(1953) but worked out more fully by Austin (1962)—is that each utterance in a"
+  },
+  {
+    "question": "What does the activation value of the hidden layer in a simple recurrent neural network depend on?",
+    "ground_truth": "The current input and the activation value of the hidden layer from the previous time step.",
+    "context": "13.1\n•\nRECURRENT NEURAL NETWORKS\n285\nxt\nht\nyt\nFigure 13.1\nSimple recurrent neural network after Elman (1990). The hidden layer in-\ncludes a recurrent connection as part of its input. That is, the activation value of the hidden\nlayer depends on the current input as well as the activation value of the hidden layer from the\nprevious time step.\nsubscripts to represent time, thus xt will mean the input vector x at time t. The key\ndifference from a feedforward network lies in the recurrent link shown in the ﬁgure"
+  },
+  {
+    "question": "How many times is a cell selected from row x to create each virtual test set x(i)?",
+    "ground_truth": "10 times",
+    "context": "n = 10. Fig. 4.11 shows a couple of examples. To create each virtual test set x(i), we\nrepeatedly (n = 10 times) select a cell from row x with replacement. For example, to\ncreate the ﬁrst cell of the ﬁrst virtual test set x(1), if we happened to randomly select\nthe second cell of the x row, we would copy the value A\u0013B into our new cell, and\nmove on to create the second cell of x(1), each time sampling (randomly choosing)\nfrom the original x with replacement."
+  },
+  {
+    "question": "What is the context window size for transformer-based language models?",
+    "ground_truth": "200K tokens or even more for very large models.",
+    "context": "through a softmax to generate word probabilities.\n• Transformer-based language models have a wide context window (200K to-\nkens or even more for very large models with special mechanisms) allowing\nthem to draw on enormous amounts of context to predict upcoming words.\n• There are various computational tricks for making large language models\nmore efﬁcient, such as the KV cache and parameter-efﬁcient ﬁnetuning.\nHistorical Notes\nThe transformer (Vaswani et al., 2017) was developed drawing on two lines of prior"
+  },
+  {
+    "question": "What is the training signal for the model in language modeling?",
+    "ground_truth": "The training signal comes from backpropagation from the last token.",
+    "context": "sequence (and similarly the model’s training signal comes from backpropagation\nfrom that last token). In language modeling, we train the model to predict the next\nword at each token step. In the next section we’ll introduce a fourth architecture, the\nencoder-decoder.\n…\nEncoder RNN\nDecoder RNN\nContext\n…\nx1\nx2\nxn\ny1\ny2\nym\n…\nRNN\nx1\nx2\nxn\n…\ny1\ny2\nyn\n…\nRNN\nx1\nx2\nxn\ny\n…\nRNN\nx1\nx2\nxt-1\n…\nx2\nx3\nxt\na) sequence labeling \nb) sequence classification \nc) language modeling\nd) encoder-decoder\nFigure 13.15"
+  },
+  {
+    "question": "What is the goal of chain-of-thought prompting?",
+    "ground_truth": "To improve performance on difficult reasoning tasks that language models tend to fail on.",
+    "context": "10.4.1\nChain-of-Thought Prompting\nThere is a wide range of techniques to use prompts to improve the performance of\nlanguage models on many tasks. Here we describe one of them, called chain-of-\nthought prompting.\nchain-of-\nthought\nThe goal of chain-of-thought prompting is to improve performance on difﬁcult\nreasoning tasks that language models tend to fail on. The intuition is that people\nsolve these tasks by breaking them down into steps, and so we’d like to have lan-"
+  },
+  {
+    "question": "What is the simplest and most influential architecture discussed in the text?",
+    "ground_truth": "The Mention-Pair Architecture",
+    "context": "which distinguishes algorithms based on whether they make each coreference deci-\nsion in a way that is entity-based—representing each entity in the discourse model—\nor only mention-based—considering each mention independently, and whether they\nuse ranking models to directly compare potential antecedents. Afterwards, we go\ninto more detail on one state-of-the-art algorithm in Section 23.6.\n23.4.1\nThe Mention-Pair Architecture\nWe begin with the mention-pair architecture, the simplest and most inﬂuential"
+  },
+  {
+    "question": "What was the influential entity-based system mentioned in the text?",
+    "ground_truth": "Lappin and Leass (1994)",
+    "context": "HISTORICAL NOTES\n549\nthe current sentence from left-to-right, starting with the ﬁrst noun group to the right\nof the pronoun (for cataphora). The ﬁrst noun group that agrees with the pronoun\nwith respect to number, gender, and person is chosen as the antecedent” (Kehler\net al., 2004).\nLappin and Leass (1994) was an inﬂuential entity-based system that used weights\nto combine syntactic and other features, extended soon after by Kennedy and Bogu-"
+  },
+  {
+    "question": "What are some sources from which the process might come?",
+    "ground_truth": "Newswire, fiction or non-fiction books, scientific articles, Wikipedia, religious texts, spoken genres like telephone conversations, business meetings, police body-worn cameras, medical interviews, transcripts of television shows or movies, doctors’ notes, legal text, or parliamentary or congressional proceedings.",
+    "context": "process might come from newswire, ﬁction or non-ﬁction books, scientiﬁc articles,\nWikipedia, or religious texts. It might come from spoken genres like telephone\nconversations, business meetings, police body-worn cameras, medical interviews,\nor transcripts of television shows or movies. It might come from work situations\nlike doctors’ notes, legal text, or parliamentary or congressional proceedings.\nText also reﬂects the demographic characteristics of the writer (or speaker): their"
+  },
+  {
+    "question": "Who showed the equivalence of the WFST and the Earley algorithm?",
+    "ground_truth": "Sheil (1976)",
+    "context": "WFST\nKuno (1965) as a data structure that stores the results of all previous computations\nin the course of the parse. Based on a generalization of Cocke’s work, a similar\ndata structure had been independently described in Kay (1967) (and Kay 1973). The\ntop-down application of dynamic programming to parsing was described in Earley’s\nPh.D. dissertation (Earley 1968, Earley 1970). Sheil (1976) showed the equivalence\nof the WFST and the Earley algorithm. Norvig (1991) shows that the efﬁciency of-"
+  },
+  {
+    "question": "What is the purpose of calculating the standard deviation of the bootstrap sampled polarity scores?",
+    "ground_truth": "It gives a confidence measure.",
+    "context": "positive and negative seed sets (for example using B = 50 and choosing 7 of\nthe 10 seed words each time). The standard deviation of the bootstrap sampled\npolarity scores gives a conﬁdence measure.\nidolize\nlove\nadore\nappreciate\nlike\nﬁnd\ndislike\nsee\nnotice\ndisapprove\nabhor\nhate\nloathe\ndespise\nuncover\nidolize\nlove\nadore\nappreciate\nlike\nﬁnd\ndislike\nsee\nnotice\ndisapprove\nabhor\nhate\nloathe\ndespise\nuncover\n(a)\n(b)\nFigure 22.7"
+  },
+  {
+    "question": "What is the formula for the vote given by anchor b to the candidate annotation a →X?",
+    "ground_truth": "vote(b,X) = (1/|E(b)|) * Σ(Y∈E(b)) rel(X,Y)p(Y|b)",
+    "context": "542\nCHAPTER 23\n•\nCOREFERENCE RESOLUTION AND ENTITY LINKING\nwhere in(x) is the set of Wikipedia pages pointing to x and W is the set of all Wiki-\npedia pages in the collection.\nThe vote given by anchor b to the candidate annotation a →X is the average,\nover all the possible entities of b, of their relatedness to X, weighted by their prior\nprobability:\nvote(b,X) =\n1\n|E(b)|\nX\nY∈E(b)\nrel(X,Y)p(Y|b)\n(23.60)\nThe total relatedness score for a →X is the sum of the votes of all the other anchors\ndetected in q:"
+  },
+  {
+    "question": "What type of audio does HuBERT use as input?",
+    "ground_truth": "Raw 16kHz sampled audio.",
+    "context": "is passed to the transformer encoder.\nHuBERT (Hsu et al., 2021) uses an alternative front end architecture, in which\nconvolutional layers are used to completely replace the computation of the spectrum.\nSo the input is raw 16kHz sampled audio, and it is passed through seven 512-channel\nlayers with strides [5,2,2,2,2,2,2] and kernel widths [10,3,3,3,3,2,2] which learn both\nto extract spectral information, and to shorten the input sequence by 320x, from"
+  },
+  {
+    "question": "Who introduced recurrence at the hidden layer in a feedforward network?",
+    "ground_truth": "Elman",
+    "context": "recurrence at the hidden layer in a feedforward network (Elman networks) were in-\ntroduced by Elman (1990). Similar architectures were investigated by Jordan (1986)\nwith a recurrence from the output layer, and Mathis and Mozer (1995) with the\naddition of a recurrent context layer prior to the hidden layer. The possibility of\nunrolling a recurrent network into an equivalent feedforward network is discussed\nin (Rumelhart and McClelland, 1986c)."
+  }
+]

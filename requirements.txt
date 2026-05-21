@@ -1,0 +1,28 @@
+# Core LLM & RAG — pinirane kompatibilne verzije
+openai>=1.30.0
+langchain==0.2.16
+langchain-core==0.2.40
+langchain-openai==0.1.25
+langchain-community==0.2.16
+langchain-text-splitters==0.2.4
+
+# Vector Store & BM25
+faiss-cpu>=1.8.0
+rank-bm25>=0.2.2
+
+# PDF Processing
+pymupdf>=1.24.0
+
+# Evaluation
+ragas>=0.1.13
+datasets>=2.19.0
+
+# Interface
+gradio>=6.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+pandas>=2.2.0
+numpy>=1.26.0
+tqdm>=4.66.0
+httpx>=0.27.0

@@ -1,0 +1,5 @@
+Metric,BM25,Vector,Hybrid
+faithfulness,0.8500 🟢,0.6367 🟡,0.8806 🟢
+answer_relevancy,0.7842 🟡,0.6299 🟡,0.8874 🟢
+context_recall,0.8333 🟢,0.6000 🟡,0.9000 🟢
+context_precision,0.8333 🟢,0.6000 🟡,0.9000 🟢
