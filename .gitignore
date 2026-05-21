@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.Python
+build/
+dist/
+
+# Editor/OS temporary files
+*~
+*.bak
+*.swp
+*.swo
+.DS_Store
+.vscode/  # Vizual Studio Code settings
+.idea/    # PyCharm/IntelliJ IDEA settings
+Thumbs.db
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Jupyter Notebook files
+.ipynb_checkpoints
+*.ipynb
+
+# Specific to your project (based on previous interaction)
+#results/ # Ignorisanje celog 'results' foldera ako sadrži privremene rezultate ili logove
+.git/config
+.git/HEAD
+.git/index
+.git/refs/
+.git/hooks/
+.git/info/
+.git/logs/
+.git/objects/
+.git/packed-refs
+.git/description
